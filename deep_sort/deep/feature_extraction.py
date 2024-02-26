@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torchvision.transforms as transforms
 
-from model import Net
+from .model import Net
 
 
 class Extractor(object):
